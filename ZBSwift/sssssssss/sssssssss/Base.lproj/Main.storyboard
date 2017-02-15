@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sssssssss" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rnh-YM-Hyj">
+                                <rect key="frame" x="121" y="142" width="359" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="359" id="Id1-5E-VDZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hee-OU-5hP">
+                                <rect key="frame" x="277" y="88" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rnh-YM-Hyj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="122" id="BaJ-5v-mRM"/>
+                            <constraint firstItem="rnh-YM-Hyj" firstAttribute="top" secondItem="hee-OU-5hP" secondAttribute="bottom" constant="24" id="GNA-O2-Opr"/>
+                            <constraint firstItem="rnh-YM-Hyj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J1R-oK-Ym1"/>
+                            <constraint firstItem="hee-OU-5hP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wDh-b1-bN8"/>
+                            <constraint firstItem="rnh-YM-Hyj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xvP-Z6-cDe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ddddddd" destination="rnh-YM-Hyj" id="mYz-Eu-Aju"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50" y="382"/>
+        </scene>
+    </scenes>
+</document>

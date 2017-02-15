@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F6BF0761BA507DF009CDAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF0751BA507DF009CDAC8 /* AppDelegate.swift */; };
+		9F6BF0781BA507DF009CDAC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF0771BA507DF009CDAC8 /* ViewController.swift */; };
+		9F6BF07B1BA507DF009CDAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BF0791BA507DF009CDAC8 /* Main.storyboard */; };
+		9F6BF07E1BA507DF009CDAC8 /* DoodleMaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF07C1BA507DF009CDAC8 /* DoodleMaker.xcdatamodeld */; };
+		9F6BF0801BA507DF009CDAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BF07F1BA507DF009CDAC8 /* Assets.xcassets */; };
+		9F6BF0831BA507DF009CDAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BF0811BA507DF009CDAC8 /* LaunchScreen.storyboard */; };
+		9F6BF08E1BA507DF009CDAC8 /* DoodleMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF08D1BA507DF009CDAC8 /* DoodleMakerTests.swift */; };
+		9F6BF0991BA507DF009CDAC8 /* DoodleMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF0981BA507DF009CDAC8 /* DoodleMakerUITests.swift */; };
+		9F6BF0A71BA50D94009CDAC8 /* PickColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF0A61BA50D94009CDAC8 /* PickColorViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9F6BF0A91BA52079009CDAC8 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BF0A81BA52079009CDAC8 /* DrawView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F6BF08A1BA507DF009CDAC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6BF06A1BA507DF009CDAC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6BF0711BA507DF009CDAC8;
+			remoteInfo = DoodleMaker;
+		};
+		9F6BF0951BA507DF009CDAC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6BF06A1BA507DF009CDAC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6BF0711BA507DF009CDAC8;
+			remoteInfo = DoodleMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F6BF0721BA507DF009CDAC8 /* DoodleMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BF0751BA507DF009CDAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6BF0771BA507DF009CDAC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F6BF07A1BA507DF009CDAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6BF07D1BA507DF009CDAC8 /* DoodleMaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoodleMaker.xcdatamodel; sourceTree = "<group>"; };
+		9F6BF07F1BA507DF009CDAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6BF0821BA507DF009CDAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6BF0841BA507DF009CDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6BF0891BA507DF009CDAC8 /* DoodleMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BF08D1BA507DF009CDAC8 /* DoodleMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMakerTests.swift; sourceTree = "<group>"; };
+		9F6BF08F1BA507DF009CDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6BF0941BA507DF009CDAC8 /* DoodleMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BF0981BA507DF009CDAC8 /* DoodleMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleMakerUITests.swift; sourceTree = "<group>"; };
+		9F6BF09A1BA507DF009CDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6BF0A61BA50D94009CDAC8 /* PickColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickColorViewController.swift; sourceTree = "<group>"; };
+		9F6BF0A81BA52079009CDAC8 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F6BF06F1BA507DF009CDAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0861BA507DF009CDAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0911BA507DF009CDAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F6BF0691BA507DF009CDAC8 = {
+			isa = PBXGroup;
+			children = (
+				9F6BF0741BA507DF009CDAC8 /* DoodleMaker */,
+				9F6BF08C1BA507DF009CDAC8 /* DoodleMakerTests */,
+				9F6BF0971BA507DF009CDAC8 /* DoodleMakerUITests */,
+				9F6BF0731BA507DF009CDAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6BF0731BA507DF009CDAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BF0721BA507DF009CDAC8 /* DoodleMaker.app */,
+				9F6BF0891BA507DF009CDAC8 /* DoodleMakerTests.xctest */,
+				9F6BF0941BA507DF009CDAC8 /* DoodleMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6BF0741BA507DF009CDAC8 /* DoodleMaker */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BF0751BA507DF009CDAC8 /* AppDelegate.swift */,
+				9F6BF0771BA507DF009CDAC8 /* ViewController.swift */,
+				9F6BF0791BA507DF009CDAC8 /* Main.storyboard */,
+				9F6BF0A81BA52079009CDAC8 /* DrawView.swift */,
+				9F6BF0A61BA50D94009CDAC8 /* PickColorViewController.swift */,
+				9F6BF07F1BA507DF009CDAC8 /* Assets.xcassets */,
+				9F6BF0811BA507DF009CDAC8 /* LaunchScreen.storyboard */,
+				9F6BF0841BA507DF009CDAC8 /* Info.plist */,
+				9F6BF07C1BA507DF009CDAC8 /* DoodleMaker.xcdatamodeld */,
+			);
+			path = DoodleMaker;
+			sourceTree = "<group>";
+		};
+		9F6BF08C1BA507DF009CDAC8 /* DoodleMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BF08D1BA507DF009CDAC8 /* DoodleMakerTests.swift */,
+				9F6BF08F1BA507DF009CDAC8 /* Info.plist */,
+			);
+			path = DoodleMakerTests;
+			sourceTree = "<group>";
+		};
+		9F6BF0971BA507DF009CDAC8 /* DoodleMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BF0981BA507DF009CDAC8 /* DoodleMakerUITests.swift */,
+				9F6BF09A1BA507DF009CDAC8 /* Info.plist */,
+			);
+			path = DoodleMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F6BF0711BA507DF009CDAC8 /* DoodleMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BF09D1BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMaker" */;
+			buildPhases = (
+				9F6BF06E1BA507DF009CDAC8 /* Sources */,
+				9F6BF06F1BA507DF009CDAC8 /* Frameworks */,
+				9F6BF0701BA507DF009CDAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodleMaker;
+			productName = DoodleMaker;
+			productReference = 9F6BF0721BA507DF009CDAC8 /* DoodleMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F6BF0881BA507DF009CDAC8 /* DoodleMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BF0A01BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMakerTests" */;
+			buildPhases = (
+				9F6BF0851BA507DF009CDAC8 /* Sources */,
+				9F6BF0861BA507DF009CDAC8 /* Frameworks */,
+				9F6BF0871BA507DF009CDAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6BF08B1BA507DF009CDAC8 /* PBXTargetDependency */,
+			);
+			name = DoodleMakerTests;
+			productName = DoodleMakerTests;
+			productReference = 9F6BF0891BA507DF009CDAC8 /* DoodleMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F6BF0931BA507DF009CDAC8 /* DoodleMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BF0A31BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMakerUITests" */;
+			buildPhases = (
+				9F6BF0901BA507DF009CDAC8 /* Sources */,
+				9F6BF0911BA507DF009CDAC8 /* Frameworks */,
+				9F6BF0921BA507DF009CDAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6BF0961BA507DF009CDAC8 /* PBXTargetDependency */,
+			);
+			name = DoodleMakerUITests;
+			productName = DoodleMakerUITests;
+			productReference = 9F6BF0941BA507DF009CDAC8 /* DoodleMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6BF06A1BA507DF009CDAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZBin;
+				TargetAttributes = {
+					9F6BF0711BA507DF009CDAC8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9F6BF0881BA507DF009CDAC8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9F6BF0711BA507DF009CDAC8;
+					};
+					9F6BF0931BA507DF009CDAC8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9F6BF0711BA507DF009CDAC8;
+					};
+				};
+			};
+			buildConfigurationList = 9F6BF06D1BA507DF009CDAC8 /* Build configuration list for PBXProject "DoodleMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6BF0691BA507DF009CDAC8;
+			productRefGroup = 9F6BF0731BA507DF009CDAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F6BF0711BA507DF009CDAC8 /* DoodleMaker */,
+				9F6BF0881BA507DF009CDAC8 /* DoodleMakerTests */,
+				9F6BF0931BA507DF009CDAC8 /* DoodleMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F6BF0701BA507DF009CDAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BF0831BA507DF009CDAC8 /* LaunchScreen.storyboard in Resources */,
+				9F6BF0801BA507DF009CDAC8 /* Assets.xcassets in Resources */,
+				9F6BF07B1BA507DF009CDAC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0871BA507DF009CDAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0921BA507DF009CDAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F6BF06E1BA507DF009CDAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BF0781BA507DF009CDAC8 /* ViewController.swift in Sources */,
+				9F6BF0A91BA52079009CDAC8 /* DrawView.swift in Sources */,
+				9F6BF0A71BA50D94009CDAC8 /* PickColorViewController.swift in Sources */,
+				9F6BF0761BA507DF009CDAC8 /* AppDelegate.swift in Sources */,
+				9F6BF07E1BA507DF009CDAC8 /* DoodleMaker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0851BA507DF009CDAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BF08E1BA507DF009CDAC8 /* DoodleMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BF0901BA507DF009CDAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BF0991BA507DF009CDAC8 /* DoodleMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F6BF08B1BA507DF009CDAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6BF0711BA507DF009CDAC8 /* DoodleMaker */;
+			targetProxy = 9F6BF08A1BA507DF009CDAC8 /* PBXContainerItemProxy */;
+		};
+		9F6BF0961BA507DF009CDAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6BF0711BA507DF009CDAC8 /* DoodleMaker */;
+			targetProxy = 9F6BF0951BA507DF009CDAC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F6BF0791BA507DF009CDAC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6BF07A1BA507DF009CDAC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F6BF0811BA507DF009CDAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6BF0821BA507DF009CDAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F6BF09B1BA507DF009CDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F6BF09C1BA507DF009CDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F6BF09E1BA507DF009CDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoodleMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F6BF09F1BA507DF009CDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoodleMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F6BF0A11BA507DF009CDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoodleMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleMaker.app/DoodleMaker";
+			};
+			name = Debug;
+		};
+		9F6BF0A21BA507DF009CDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoodleMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleMaker.app/DoodleMaker";
+			};
+			name = Release;
+		};
+		9F6BF0A41BA507DF009CDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoodleMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoodleMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F6BF0A51BA507DF009CDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoodleMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZBin.DoodleMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoodleMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F6BF06D1BA507DF009CDAC8 /* Build configuration list for PBXProject "DoodleMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BF09B1BA507DF009CDAC8 /* Debug */,
+				9F6BF09C1BA507DF009CDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BF09D1BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BF09E1BA507DF009CDAC8 /* Debug */,
+				9F6BF09F1BA507DF009CDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BF0A01BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BF0A11BA507DF009CDAC8 /* Debug */,
+				9F6BF0A21BA507DF009CDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BF0A31BA507DF009CDAC8 /* Build configuration list for PBXNativeTarget "DoodleMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BF0A41BA507DF009CDAC8 /* Debug */,
+				9F6BF0A51BA507DF009CDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F6BF07C1BA507DF009CDAC8 /* DoodleMaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F6BF07D1BA507DF009CDAC8 /* DoodleMaker.xcdatamodel */,
+			);
+			currentVersion = 9F6BF07D1BA507DF009CDAC8 /* DoodleMaker.xcdatamodel */;
+			path = DoodleMaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F6BF06A1BA507DF009CDAC8 /* Project object */;
+}

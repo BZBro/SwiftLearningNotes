@@ -1,0 +1,6 @@
+framework module CYPullRefresh {
+  umbrella header "CYPullRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
