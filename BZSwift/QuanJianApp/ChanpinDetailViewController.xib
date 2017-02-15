@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChanpinDetailViewController">
+            <connections>
+                <outlet property="chanpinImageView" destination="EZf-CE-ZXS" id="LGP-hj-Uth"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="Esc-xf-fDR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C7w-gF-fhG">
+                    <rect key="frame" x="0.0" y="64" width="600" height="250"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EZf-CE-ZXS">
+                            <rect key="frame" x="165" y="5" width="270" height="240"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="240" id="Mdd-7k-S7F"/>
+                                <constraint firstAttribute="width" constant="270" id="Tnl-lN-9B3"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="F0O-Y1-r37"/>
+                        <constraint firstItem="EZf-CE-ZXS" firstAttribute="top" secondItem="C7w-gF-fhG" secondAttribute="top" constant="5" id="TfK-9l-Auc"/>
+                        <constraint firstItem="EZf-CE-ZXS" firstAttribute="centerX" secondItem="C7w-gF-fhG" secondAttribute="centerX" id="i9e-c8-ahL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yop-Qb-78P">
+                    <rect key="frame" x="0.0" y="314" width="600" height="68"/>
+                    <color key="backgroundColor" red="0.75955984740000004" green="0.61032106119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="zqX-EQ-kyi"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sga-Qj-yVE">
+                    <rect key="frame" x="0.0" y="382" width="600" height="218"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="C7w-gF-fhG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7UH-rq-6GK"/>
+                <constraint firstAttribute="bottom" secondItem="Sga-Qj-yVE" secondAttribute="bottom" id="Dbr-aR-VQr"/>
+                <constraint firstItem="C7w-gF-fhG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EDo-bM-bEk"/>
+                <constraint firstItem="yop-Qb-78P" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M6g-KC-WWy"/>
+                <constraint firstItem="C7w-gF-fhG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="MXU-o9-wny"/>
+                <constraint firstItem="Sga-Qj-yVE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bNh-p3-Fp8"/>
+                <constraint firstItem="C7w-gF-fhG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="cyX-mr-WHe"/>
+                <constraint firstAttribute="trailing" secondItem="C7w-gF-fhG" secondAttribute="trailing" id="fNs-MH-DZv"/>
+                <constraint firstAttribute="trailing" secondItem="Sga-Qj-yVE" secondAttribute="trailing" id="lM5-BL-8uM"/>
+                <constraint firstItem="Sga-Qj-yVE" firstAttribute="top" secondItem="yop-Qb-78P" secondAttribute="bottom" id="odm-wf-vfN"/>
+                <constraint firstAttribute="trailing" secondItem="yop-Qb-78P" secondAttribute="trailing" id="ren-aH-dQz"/>
+                <constraint firstAttribute="trailing" secondItem="C7w-gF-fhG" secondAttribute="trailing" id="s2T-tn-Oyn"/>
+                <constraint firstItem="yop-Qb-78P" firstAttribute="top" secondItem="C7w-gF-fhG" secondAttribute="bottom" id="ykr-RA-Zro"/>
+                <constraint firstItem="yop-Qb-78P" firstAttribute="top" secondItem="C7w-gF-fhG" secondAttribute="bottom" id="zag-gN-bRU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7UH-rq-6GK"/>
+                    <exclude reference="MXU-o9-wny"/>
+                    <exclude reference="s2T-tn-Oyn"/>
+                    <exclude reference="ykr-RA-Zro"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="531" y="278"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfomationViewController">
+            <connections>
+                <outlet property="newsView" destination="Z3R-x8-QvD" id="Of1-GC-AhU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Z3R-x8-QvD" userLabel="newsView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="297"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日权健" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztz-pF-yjc">
+                    <rect key="frame" x="31" y="49" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.2274509804" green="0.52549019610000003" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="企业理念" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6F-KG-ntm">
+                    <rect key="frame" x="31" y="214" width="68" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="68" id="Zyh-eB-hnF"/>
+                        <constraint firstAttribute="height" constant="21" id="iWO-Db-vbJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.2274509804" green="0.52549019610000003" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ia-dY-h04">
+                    <rect key="frame" x="31" y="91" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="kwa-XG-ysT"/>
+                        <constraint firstAttribute="width" constant="92" id="zh8-Zw-e4B"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="企业简介" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="jianjie:" destination="-1" eventType="touchUpInside" id="Zha-kE-e3E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kA-Tv-Neh">
+                    <rect key="frame" x="254" y="91" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="jHy-Yd-nfC"/>
+                        <constraint firstAttribute="width" constant="92" id="yYp-v6-d7B"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="发展记事" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTd-Pq-hme">
+                    <rect key="frame" x="480" y="91" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="92" id="bnd-Ze-LbL"/>
+                        <constraint firstAttribute="height" constant="22" id="ylg-vW-Zuz"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="生产基地" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dr-41-kba">
+                    <rect key="frame" x="31" y="135" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="2Xa-nn-ZX8"/>
+                        <constraint firstAttribute="width" constant="92" id="msm-sS-hRv"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="企业荣誉" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crT-VY-M7A">
+                    <rect key="frame" x="254" y="135" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="92" id="TtN-ic-UTE"/>
+                        <constraint firstAttribute="height" constant="22" id="Xav-A2-P2f"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="发展远景" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hs-2t-4qk">
+                    <rect key="frame" x="31" y="247" width="92" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Jrv-sU-N8K"/>
+                        <constraint firstAttribute="width" constant="92" id="qMw-fw-zoR"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="企业文化" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l64-WH-vo7">
+                    <rect key="frame" x="254" y="247" width="108" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="108" id="Lrl-ka-3ND"/>
+                        <constraint firstAttribute="height" constant="22" id="jzA-Hb-bBC"/>
+                    </constraints>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="董事长简介" image="dian">
+                        <color key="titleColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.81826666140000004" blue="0.4551169779" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="8Dr-41-kba" firstAttribute="leading" secondItem="Z3R-x8-QvD" secondAttribute="leading" constant="31" id="1F8-CL-1k7"/>
+                <constraint firstItem="ztz-pF-yjc" firstAttribute="leading" secondItem="Z3R-x8-QvD" secondAttribute="leading" constant="31" id="3OM-JY-mBz"/>
+                <constraint firstItem="8Hs-2t-4qk" firstAttribute="leading" secondItem="Z3R-x8-QvD" secondAttribute="leading" constant="31" id="5c5-Mp-C7S"/>
+                <constraint firstAttribute="trailing" secondItem="dTd-Pq-hme" secondAttribute="trailing" constant="28" id="9ti-kW-xD9"/>
+                <constraint firstItem="dTd-Pq-hme" firstAttribute="leading" secondItem="5kA-Tv-Neh" secondAttribute="trailing" constant="30" id="BL9-vO-Qs1"/>
+                <constraint firstItem="l64-WH-vo7" firstAttribute="leading" secondItem="crT-VY-M7A" secondAttribute="leading" id="Gii-fT-FcI"/>
+                <constraint firstItem="5kA-Tv-Neh" firstAttribute="top" secondItem="Z3R-x8-QvD" secondAttribute="top" constant="91" id="HZE-sr-9aK"/>
+                <constraint firstItem="ztz-pF-yjc" firstAttribute="top" secondItem="Z3R-x8-QvD" secondAttribute="top" constant="49" id="I7d-1o-nc9"/>
+                <constraint firstItem="5kA-Tv-Neh" firstAttribute="leading" secondItem="2ia-dY-h04" secondAttribute="trailing" constant="31" id="If2-bK-wtT"/>
+                <constraint firstItem="C6F-KG-ntm" firstAttribute="leading" secondItem="Z3R-x8-QvD" secondAttribute="leading" constant="31" id="KNv-EU-MnV"/>
+                <constraint firstItem="8Dr-41-kba" firstAttribute="top" secondItem="2ia-dY-h04" secondAttribute="bottom" constant="22" id="Pop-Y3-VtK"/>
+                <constraint firstItem="2ia-dY-h04" firstAttribute="top" secondItem="ztz-pF-yjc" secondAttribute="bottom" constant="21" id="Qvg-CI-OPw"/>
+                <constraint firstItem="crT-VY-M7A" firstAttribute="centerX" secondItem="Z3R-x8-QvD" secondAttribute="centerX" id="RdX-5v-gUf"/>
+                <constraint firstItem="crT-VY-M7A" firstAttribute="top" secondItem="5kA-Tv-Neh" secondAttribute="bottom" constant="22" id="ScG-BJ-XyK"/>
+                <constraint firstItem="8Hs-2t-4qk" firstAttribute="top" secondItem="C6F-KG-ntm" secondAttribute="bottom" constant="12" id="UKZ-6X-3q7"/>
+                <constraint firstItem="C6F-KG-ntm" firstAttribute="top" secondItem="8Dr-41-kba" secondAttribute="bottom" constant="57" id="WX0-OM-hFI"/>
+                <constraint firstItem="dTd-Pq-hme" firstAttribute="top" secondItem="Z3R-x8-QvD" secondAttribute="top" constant="91" id="iNt-YY-x11"/>
+                <constraint firstAttribute="trailing" secondItem="dTd-Pq-hme" secondAttribute="trailing" constant="28" id="lGA-Bo-yRU"/>
+                <constraint firstItem="5kA-Tv-Neh" firstAttribute="centerX" secondItem="Z3R-x8-QvD" secondAttribute="centerX" id="nzb-Ew-mE2"/>
+                <constraint firstItem="2ia-dY-h04" firstAttribute="top" secondItem="ztz-pF-yjc" secondAttribute="bottom" constant="21" id="r0P-wt-hEL"/>
+                <constraint firstItem="2ia-dY-h04" firstAttribute="leading" secondItem="Z3R-x8-QvD" secondAttribute="leading" constant="31" id="rqb-7J-bKx"/>
+                <constraint firstItem="l64-WH-vo7" firstAttribute="top" secondItem="crT-VY-M7A" secondAttribute="bottom" constant="90" id="vJ3-48-qFI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="r0P-wt-hEL"/>
+                    <exclude reference="If2-bK-wtT"/>
+                    <exclude reference="BL9-vO-Qs1"/>
+                    <exclude reference="lGA-Bo-yRU"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="565" y="92.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dian" width="9" height="9"/>
+    </resources>
+</document>

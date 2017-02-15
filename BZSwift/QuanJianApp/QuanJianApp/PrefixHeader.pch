@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  0226TappedApplicationTest
+//
+//  Created by ZBin on 16/2/26.
+//  Copyright © 2016年 BZ. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "this project uses features only avalible in iOS SDK 5.0 and later."
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+//RGB Color
+#define BZColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define BZLog(name) NSLog(@"%@",name)
+//Random Color
+#define BZRandomColor BZColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Extension.h"
+#endif /* PrefixHeader_pch */

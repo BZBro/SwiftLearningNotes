@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="zixunHeader" id="KGk-i7-Jjw" customClass="ZiXunTableHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="权健新闻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-Z1-oji">
+                        <rect key="frame" x="67" y="8" width="76" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="8dZ-3R-3TS"/>
+                            <constraint firstAttribute="height" constant="21" id="8vb-tw-OZw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.54509803921568623" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAd-SJ-wHJ">
+                        <rect key="frame" x="251" y="4" width="48" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="06k-HO-T6y"/>
+                            <constraint firstAttribute="height" constant="30" id="3B8-KV-38q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="更多">
+                            <color key="titleColor" red="0.64313725490196072" green="0.64313725490196072" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="moreNews:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gbD-jw-bHh"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b2" translatesAutoresizingMaskIntoConstraints="NO" id="BWM-YM-ZnZ">
+                        <rect key="frame" x="290" y="11" width="14" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="14" id="UWX-xT-vhR"/>
+                            <constraint firstAttribute="height" constant="14" id="pPh-g5-sFb"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun" translatesAutoresizingMaskIntoConstraints="NO" id="kcR-27-GZ7">
+                        <rect key="frame" x="0.0" y="8" width="47" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="ECn-Jk-XOQ"/>
+                            <constraint firstAttribute="width" constant="47" id="HwJ-oe-l1K"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="BWM-YM-ZnZ" secondAttribute="trailing" constant="16" id="5le-La-tOI"/>
+                    <constraint firstItem="kAd-SJ-wHJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="GuM-R6-Nuh"/>
+                    <constraint firstItem="h1O-Z1-oji" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="MkD-k2-Ho2"/>
+                    <constraint firstItem="kcR-27-GZ7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="OWV-0C-rgQ"/>
+                    <constraint firstAttribute="trailing" secondItem="kAd-SJ-wHJ" secondAttribute="trailing" constant="21" id="bvz-GY-a36"/>
+                    <constraint firstItem="kcR-27-GZ7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dAW-4h-ofO"/>
+                    <constraint firstItem="h1O-Z1-oji" firstAttribute="leading" secondItem="kcR-27-GZ7" secondAttribute="trailing" constant="20" id="sbd-SJ-RIF"/>
+                    <constraint firstItem="BWM-YM-ZnZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="wkY-u7-uDd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="zixunMoreButton" destination="kAd-SJ-wHJ" id="eoY-BW-1qi"/>
+            </connections>
+            <point key="canvasLocation" x="256" y="267"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="b2" width="13" height="22"/>
+        <image name="zixun" width="78" height="43"/>
+    </resources>
+</document>
